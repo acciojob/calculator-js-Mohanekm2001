@@ -31,7 +31,7 @@
 }
 
 #back {
-  grid-column: span 2;
+  font-size: 2em;
 }
 
 #clear {

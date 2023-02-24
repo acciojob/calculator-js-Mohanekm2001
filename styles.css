@@ -1,1 +1,53 @@
 /*  your css code here. If applicable */
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.display {
+  grid-column: 1 / -1;
+  padding: 10px;
+  text-align: right;
+  font-size: 2em;
+  background-color: #ccc;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 1.5em;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #666;
+}
+
+#back {
+  grid-column: span 2;
+}
+
+#clear {
+  background-color: #f44336;
+}
+
+#equal {
+  background-color: #4caf50;
+  grid-row: span 2;
+}
+
+#decimal {
+  font-size: 2em;
+}
+
+#op, #cl {
+  font-size: 1.8em;
+}
+
